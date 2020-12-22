@@ -1,0 +1,23 @@
+<DATA>
+
+	<ROW>
+		<id>1</id>
+		<givenName>Иван</givenName>
+		<patronymic>Зеленович</patronymic>
+		<surName>Зеленский</surName>
+	</ROW>
+
+	<ROW>
+		<id>2</id>
+		<givenName>Семен</givenName>
+		<patronymic>Петрович</patronymic>
+		<surName>Петров</surName>
+	</ROW>
+
+	<ROW>
+		<id>3</id>
+		<givenName>Лука</givenName>
+		<patronymic>Семенович</patronymic>
+		<surName>Семенов</surName>
+	</ROW>
+</DATA>

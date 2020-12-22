@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<resultset statement="SELECT * FROM dctnumber_01.employee
+LIMIT 0, 1000
+"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<row>
+		<field name="id">1</field>
+		<field name="givenName">Иван</field>
+		<field name="patronymic">Зеленович</field>
+		<field name="surName">Зеленский</field>
+	</row>
+
+	<row>
+		<field name="id">2</field>
+		<field name="givenName">Семен</field>
+		<field name="patronymic">Петрович</field>
+		<field name="surName">Петров</field>
+	</row>
+
+	<row>
+		<field name="id">3</field>
+		<field name="givenName">Лука</field>
+		<field name="patronymic">Семенович</field>
+		<field name="surName">Семенов</field>
+	</row>
+</resultset>

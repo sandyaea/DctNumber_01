@@ -1,0 +1,47 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="AllTests">
+
+<!--
+    <method-selectors>
+        <method-selector>
+            <selector-class name="org.jpwh.shared.util.DatabaseTestMethodSelector"/>
+        </method-selector>
+    </method-selectors>
+-->
+
+<!--
+    <test name="Hello World">
+        <packages>
+            <package name="org.jpwh.helloworld"/>
+        </packages>
+    </test>
+-->
+
+<!--
+    <test name="DctNumber Entities">
+        <packages>
+            <package name="org.kate.dctnumber.entity"/>
+        </packages>
+    </test>
+-->
+
+    <test name="DctNumber Entities01">
+       <classes>
+         <class name="org.kate.dctnumber.entity.EntityJPATest01"/>
+       </classes>
+    </test>
+
+    <test name="DctNumber Entities02">
+       <classes>
+         <class name="org.kate.dctnumber.entity.EntityJPATest02"/>
+       </classes>
+    </test>
+
+    <test name="EmployeeDAOTest">
+       <classes>
+         <class name="org.kate.dctnumber.dao.EmployeeDAOTest"/>
+       </classes>
+    </test>
+
+</suite>
