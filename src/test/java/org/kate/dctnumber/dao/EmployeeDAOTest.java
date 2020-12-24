@@ -62,6 +62,9 @@ public class EmployeeDAOTest extends TransactionManagerTest {
                 employeeDAO.setEntityManager(em);
 
                 assertEquals(employeeDAO.getCount(), new Long(4));
+
+                tx.commit();
+                em.close();
         	}
 
         } finally {

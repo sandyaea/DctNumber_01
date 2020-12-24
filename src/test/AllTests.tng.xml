@@ -44,4 +44,10 @@
        </classes>
     </test>
 
+    <test name="DctDAOTest">
+       <classes>
+         <class name="org.kate.dctnumber.dao.DctDAOTest"/>
+       </classes>
+    </test>
+
 </suite>
