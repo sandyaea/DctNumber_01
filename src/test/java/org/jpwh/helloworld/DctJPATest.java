@@ -20,7 +20,7 @@ public class DctJPATest extends TransactionManagerTest {
     public void t01FirstEmployee() throws Exception {
 
         EntityManagerFactory emf =
-                Persistence.createEntityManagerFactory("HelloWorldPU");
+                Persistence.createEntityManagerFactory("Test01PU");
 
             try {
             	{
@@ -63,7 +63,7 @@ public class DctJPATest extends TransactionManagerTest {
     public void t02FirstDct() throws Exception {
 
         EntityManagerFactory emf =
-            Persistence.createEntityManagerFactory("HelloWorldPU");
+            Persistence.createEntityManagerFactory("Test01PU");
 
         try {
             {

@@ -20,7 +20,7 @@ public class EmployeeDAOTest extends TransactionManagerTest {
 
     @BeforeTest()
     public void beforeTest() throws Exception {
-    	emf = Persistence.createEntityManagerFactory("HelloWorldPU");
+    	emf = Persistence.createEntityManagerFactory("Test01PU");
     }
 
 	@AfterTest(alwaysRun = true)

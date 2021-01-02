@@ -22,18 +22,13 @@ public class EntityJPATest02 extends TransactionManagerTest {
 
     @BeforeTest()
     public void beforeTest() throws Exception {
-    	emf = Persistence.createEntityManagerFactory("HelloWorldPU");
+    	emf = Persistence.createEntityManagerFactory("Test01PU");
     }
 
 	@AfterTest(alwaysRun = true)
     public void afterTest() throws Exception {
         if (emf != null)
             emf.close();
-    }
-
-	@Test
-    public void t01Employee() throws Exception {
-
     }
 
     @SuppressWarnings("unchecked")

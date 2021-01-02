@@ -21,7 +21,7 @@ public class EntityJPATest01 extends TransactionManagerTest {
 
     @BeforeTest()
     public void beforeTest() throws Exception {
-    	emf = Persistence.createEntityManagerFactory("HelloWorldPU");
+    	emf = Persistence.createEntityManagerFactory("Test01PU");
     }
 
 	@AfterTest(alwaysRun = true)
@@ -67,11 +67,6 @@ public class EntityJPATest01 extends TransactionManagerTest {
             } finally {
                 TM.rollback();
             }
-    }
-
-    @Test
-    public void t02Dct() throws Exception {
-
     }
 
 }
