@@ -53,7 +53,7 @@ public class DctJPA {
     @SuppressWarnings("unchecked")
 	public void storeLoadMessage() throws Exception {
         EntityManagerFactory emf =
-                Persistence.createEntityManagerFactory("HelloWorldPU");
+                Persistence.createEntityManagerFactory("Test00PU");
         
         try {
         	{
