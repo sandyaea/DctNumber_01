@@ -42,4 +42,10 @@
        </classes>
     </test>
 
+    <test name="UniqueNumberTest">
+       <classes>
+         <class name="org.kate.dctnumber.entity.UniqueNumberTest"/>
+       </classes>
+    </test>
+
 </suite>

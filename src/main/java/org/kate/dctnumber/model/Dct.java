@@ -7,17 +7,22 @@ import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+import javax.persistence.UniqueConstraint;
 
 @Entity
+@Table(name="dct", uniqueConstraints={
+		@UniqueConstraint(columnNames={"year", "number"})
+})
 public class Dct {
 
 	@Id
 	@GeneratedValue(generator = Constants.ID_GENERATOR)
 	private Long id;
 
-	private Integer number;
-
 	private Integer year;
+
+	private Integer number;
 
 	@ManyToOne(fetch = FetchType.LAZY)
 	private Employee signatory;
