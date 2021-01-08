@@ -65,7 +65,6 @@ public class UniqueNumberTest extends TransactionManagerTest {
 			em.close();
 
 		} catch (Exception ex) {
-			System.out.println("Error:" + ex.getMessage());
 			isException = true;
 		} finally {
 			TM.rollback();

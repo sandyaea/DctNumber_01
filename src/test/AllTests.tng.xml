@@ -48,4 +48,10 @@
        </classes>
     </test>
 
+    <test name="MaxNumberOfDctTest">
+       <classes>
+         <class name="org.kate.dctnumber.dao.MaxNumberOfDctTest"/>
+       </classes>
+    </test>
+
 </suite>
